@@ -5,7 +5,7 @@ Video Cutter es una aplicación desarrollada en Node.js con TypeScript que permi
 ## Requisitos
 
 -   **Node.js** v14.0.0 o superior
--   [**FFmpeg**](https://www.ffmpeg.org/) debe estar instalado y disponible en la línea de comandos[]
+-   [**FFmpeg**](https://www.ffmpeg.org/) debe estar instalado y disponible en la línea de comandos
 
 ## Instalación
 
