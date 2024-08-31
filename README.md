@@ -55,7 +55,7 @@ Video Cutter es una aplicación desarrollada en Node.js con TypeScript que permi
 ```
 
 -   --output: Especifica el nombre de la carpeta donde se guardarán los cortes de los videos. Si la carpeta no existe, se creará automáticamente. Si no se envia este parametro se guardarna en `./recortes`
--   --target: Escipica la ruta del video a cortar. Este parametro es obligatiorio.
+-   --target: Especifica la ruta del video a cortar. Este parametro es obligatiorio.
 
 ## Ejemplo de Uso
 
