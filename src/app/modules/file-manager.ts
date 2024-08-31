@@ -12,7 +12,7 @@ export class FileManager {
     }
 
     public createFolderForSaveVideos(): string {
-        Logger.log(`Los respositorios clonados se almacenaran en la siguiente ruta: ***${this.pathFolderToSave}***`);
+        Logger.log(`Los recortes se almacenaran en la siguiente ruta: ***${this.pathFolderToSave}***`);
 
         if (!fileSystem.existsSync(this.pathFolderToSave)) {
             fileSystem.mkdir(this.pathFolderToSave, { recursive: true }, (error) => {
