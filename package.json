@@ -1,0 +1,27 @@
+{
+    "name": "video-cutter-app",
+    "version": "1.0.0",
+    "author": "Alejandro Bongioanni <alejandro.bongioanni@gmail.com>",
+    "scripts": {
+        "build": "tsc",
+        "start": "node ./dist/index.js",
+        "start:dev": "concurrently \"tsc --watch\" \"nodemon ./dist/index.js -e ts,js\" -n \"TSC,NODE\" -c \"blue,yellow\""
+    },
+    "keywords": [],
+    "license": "ISC",
+    "description": "cortador de videos usando ffmpeg",
+    "devDependencies": {
+        "@types/ffmpeg": "^1.0.7",
+        "@types/log4js": "^0.0.33",
+        "@types/minimist": "^1.2.5",
+        "@types/node": "^22.5.1",
+        "concurrently": "^8.2.2",
+        "nodemon": "^3.1.4",
+        "typescript": "^5.5.4"
+    },
+    "dependencies": {
+        "ffmpeg": "^0.0.4",
+        "log4js": "^6.9.1",
+        "minimist": "^1.2.8"
+    }
+}
